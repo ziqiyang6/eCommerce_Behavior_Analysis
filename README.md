@@ -4,7 +4,10 @@ Create the virtual Environment
 ```
 # This is command you may need for conda environment
 source /opt/anaconda3/etc/profile.d/conda.sh
+
+# Run this if you need to create the environment
 conda create -n ecom-ws python=3.11 -y
+
 conda activate ecom-ws
 python -V
 ```
