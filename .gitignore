@@ -1,0 +1,31 @@
+# Data (too large for git; re-create with scripts/00_prepare_data.py)
+data/raw/
+data/processed/
+data/sample_run/
+
+# Spark write markers
+*.crc
+_SUCCESS
+
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Spark / misc
+spark-warehouse/
+metastore_db/
+derby.log
+
+# OS
+.DS_Store
+
+# Scratch
+file_
+scripts/Untitled.ipynb
+scripts/spark_practice.ipynb
